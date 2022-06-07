@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>My Contact details :</h1>
+    <p>My Fictional Adress</p>
+    <p>cell # 0321054738</p>
+    <p>myfictionalemail@gmail.com</p>
+<hr>
+    <h2>Fill this following Information.</h2>
+    <!--to store or send the information we used the task with form tag. -->
+    <!-- enctype="text/plain" Its write your(name="Your Name") information when you send -->
+    <form action="mailto:umarfarooq223132@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name :</label>
+        <input name="Your Name" type="text" placeholder="Enter Your Name">
+        <input type="submit">
+<br><br>
+        <label>Please select Your Image :</label>
+        <input name="Your Image" type="file">
+<br><br>
+        <label>Your Countery Name :</label>
+        <input name="Your Countey Name" type="text" placeholder="+92 Pakistan">
+        <input type="submit">
+<br><br>
+        <label>Select Your Favourite Colour :</label>
+        <input name="Your Favourite Colour" type="color">
+<br><br>
+        <label>Select Your Gender :</label>
+        <select name="Your Gender">
+            <option value="">Please Choose an Option</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+<br><br>
+        <label>Your Date of Birth :</label>
+        <input name="Your Date of Birth" type="date">
+<br><br>
+        <label>Enter Your EMAIL :</label>
+        <input name="Your EMAIL" type="email" pattern="+@gmail.com" placeholder="---------@gmail.com">
+<br><br>
+        <label>Your skill About Webdevelopment :</label>
+        <input name="Your skill" type="range">
+<br><br>
+<!--7.Forms in practise create a Contact Me  ------------------------->
+        <label>Feedback :</label><br>
+        <textarea name="Feedback" id="" cols="30" rows="5"></textarea>
+        <input type="submit">
+
+
+<br><br>
+        <label>Are You Fill All This Information carefully ?</label>
+        <input type="checkbox">
+        <center>
+        <h3>Thank You 🥰 To Fill This Above Information.</h3>
+        </center>
+<hr>
+</form>
+<h3>⇒ <a href="index.html">Goback To Homepage.</a></h3>
+</body>
+</html>
